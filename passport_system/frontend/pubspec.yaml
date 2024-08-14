@@ -1,0 +1,49 @@
+name: frontend
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"  # Ensure SDK range supports null safety
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  google_fonts: ^6.2.1  # Updated to the latest version
+  http: ^1.2.2  # Updated to the latest version
+  flutter_svg: ^2.0.10+1  # Updated to the latest version
+  cupertino_icons: ^1.0.8  # Updated to the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/immigration.png
+    - images/fb.png
+    - images/google.png
+    - images/govt.png
+    - images/admin_icon.png
+    - images/police_icon.png
+    - images/user_icon.png
+    - images/wahab.png
+
+
+# Uncomment the following section if you have custom fonts to include
+# fonts:
+#   - family: Schyler
+#     fonts:
+#       - asset: fonts/Schyler-Regular.ttf
+#       - asset: fonts/Schyler-Italic.ttf
+#         style: italic
+#   - family: Trajan Pro
+#     fonts:
+#       - asset: fonts/TrajanPro.ttf
+#       - asset: fonts/TrajanPro_Bold.ttf
+#         weight: 700
